@@ -1,0 +1,77 @@
+:root {
+  --speed: 500;
+  --one: 0deg;
+  --two: 18deg;
+  --three: 36deg;
+  --four: 54deg;
+  --five: 72deg;
+  --six: 90deg;
+  --seven: 108deg;
+  --eight: 126deg;
+  --nine: 144deg;
+  --ten: 162deg;
+  --eleven: 180deg;
+  --twelve: 198deg;
+  --thirteen: 216deg;
+  --fourteen: 236deg;
+  --fifteen: 252deg;
+  --sixteen: 270deg;
+  --seventeen: 288deg;
+  --eighteen: 306deg;
+  --nineteen: 324deg;
+  --twenty: 342deg;
+  font-family: 'Jura', sans-serif;
+}
+
+audio {
+  display: none
+}
+
+.circle {
+  display: block;
+  position: relative;
+  width: 80vh;
+  height: 80vh;
+  border: none;
+  border-radius: 50%;
+  margin: -2em auto;
+}
+
+.circle img {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 80px;
+    margin: -3em;
+}
+
+#center {
+  transition: all 2.6s
+}
+
+.playing {
+  transform: scale(3);
+}
+
+#one { transform: rotate(var(--one)) translate(40vh) rotate(var(--one))}
+#two { transform: rotate(var(--two)) translate(40vh) rotate(var(--two)); }
+#three { transform: rotate(var(--three)) translate(40vh) rotate(var(--three)); }
+#four { transform: rotate(var(--four)) translate(40vh) rotate(var(--four)); }
+#five { transform: rotate(var(--five)) translate(40vh) rotate(var(--five)); }
+#six { transform: rotate(var(--six)) translate(40vh) rotate(var(--six)); }
+#seven { transform: rotate(var(--seven)) translate(40vh) rotate(var(--seven)); }
+#eight { transform: rotate(var(--eight)) translate(40vh) rotate(var(--eight)); }
+#nine { transform: rotate(var(--nine)) translate(40vh) rotate(var(--nine)); }
+#ten { transform: rotate(var(--ten)) translate(40vh) rotate(var(--ten)); }
+#eleven { transform: rotate(var(--eleven)) translate(40vh) rotate(var(--eleven)); }
+#twelve { transform: rotate(var(--twelve)) translate(40vh) rotate(var(--twelve)); }
+#thirteen { transform: rotate(var(--thirteen)) translate(40vh) rotate(var(--thirteen)); }
+#fourteen { transform: rotate(var(--fourteen)) translate(40vh) rotate(var(--fourteen)); }
+#fifteen { transform: rotate(var(--fifteen)) translate(40vh) rotate(var(--fifteen)); }
+#sixteen { transform: rotate(var(--sixteen)) translate(40vh) rotate(var(--sixteen)); }
+#seventeen { transform: rotate(var(--seventeen)) translate(40vh) rotate(var(--seventeen)); }
+#eighteen { transform: rotate(var(--eighteen)) translate(40vh) rotate(var(--eighteen)); }
+#nineteen { transform: rotate(var(--nineteen)) translate(40vh) rotate(var(--nineteen)); }
+#twenty { transform: rotate(var(--twenty)) translate(40vh) rotate(var(--twenty)); }
+
+
